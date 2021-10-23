@@ -4,7 +4,7 @@
 
 - Kubernetes cluster ([minikube](https://minikube.sigs.k8s.io/docs/start) it's the one I used)
 - [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/)
-- [kustomize](https://kustomize.io/) (just to see how it works, ArgoCD takes care of the rest then)
+- [kustomize](https://kustomize.io/) (just to see how it works, ArgoCD takes care of the rest afterwards)
 
 #### Commands
 
