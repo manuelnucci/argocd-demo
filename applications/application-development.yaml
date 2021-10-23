@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application-development
   namespace: argocd
 spec:
-  project: myapp
+  project: default
 
   source:
     repoURL: https://github.com/manuelnucci/argocd-demo.git
