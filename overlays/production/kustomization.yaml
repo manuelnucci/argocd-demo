@@ -1,0 +1,13 @@
+namePrefix: production-
+namespace: production
+commonLabels:
+  variant: production
+commonAnnotations:
+  note: Hello, I am production!
+resources:
+  - ../../base
+# patchesStrategicMerge:
+#   - deployment-patch.yaml
+images:
+  - name: manuelnucci/argocd-app
+    newTag: "1.2"

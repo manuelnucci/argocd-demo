@@ -1,0 +1,13 @@
+namePrefix: staging-
+namespace: staging
+commonLabels:
+  variant: staging
+commonAnnotations:
+  note: Hello, I am staging!
+resources:
+  - ../../base
+# patchesStrategicMerge:
+#   - deployment-patch.yaml
+images:
+  - name: manuelnucci/argocd-app
+    newTag: "1.1"
