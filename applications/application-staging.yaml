@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application-staging
   namespace: argocd
 spec:
-  project: default
+  project: myapp
 
   source:
     repoURL: https://github.com/manuelnucci/argocd-demo.git
