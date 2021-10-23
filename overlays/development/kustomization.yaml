@@ -1,0 +1,13 @@
+namePrefix: development-
+namespace: development
+commonLabels:
+  variant: development
+commonAnnotations:
+  note: Hello, I am development!
+resources:
+  - ../../base
+# patchesStrategicMerge:
+# - deployment-patch.yaml
+images:
+  - name: manuelnucci/argocd-app
+    newTag: "1.0"
