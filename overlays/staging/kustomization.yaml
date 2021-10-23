@@ -10,4 +10,4 @@ resources:
 #   - deployment-patch.yaml
 images:
   - name: manuelnucci/argocd-app
-    newTag: "1.1"
+    newTag: "1.0"
