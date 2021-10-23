@@ -16,7 +16,7 @@ spec:
         - name: myapp
           image: manuelnucci/argocd-app:1.0
           ports:
-            - containerPort: 8080
+            - containerPort: 80
           resources:
             limits:
               cpu: 100m
